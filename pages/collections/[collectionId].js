@@ -181,7 +181,7 @@ const Collection = () => {
             <div className={style.collectionStat}>
               <div className={style.statValue}>
                 <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
+                  src="https://www.logo.wine/a/logo/Ethereum/Ethereum-Logo.wine.svg"
                   alt="eth"
                   className={style.ethLogo}
                 />
@@ -192,7 +192,7 @@ const Collection = () => {
             <div className={style.collectionStat}>
               <div className={style.statValue}>
                 <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
+                  src="https://www.logo.wine/a/logo/Ethereum/Ethereum-Logo.wine.svg"
                   alt="eth"
                   className={style.ethLogo}
                 />
