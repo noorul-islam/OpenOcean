@@ -61,8 +61,8 @@ export default function Home() {
             Connect Wallet
           </button>
           <div className={style.details}>
-            You need Chrome to be
-            <br /> able to run this app.
+            You need Chrome to be able to run this app. 
+			        <br /> Please connect with Polygon Mumbai Test Network (MATIC).
           </div>
         </div>
       )}
