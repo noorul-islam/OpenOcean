@@ -62,7 +62,7 @@ export default function Home() {
           </button>
           <div className={style.details}>
             You need Chrome to be able to run this app. 
-			        <br /> Please connect with Polygon Mumbai Test Network (MATIC).
+			        <br /> Please connect with Ethereum Goerli Test Network.
           </div>
         </div>
       )}
