@@ -68,7 +68,7 @@ const Collection = () => {
       provider.getSigner()
     )
     return sdk.getMarketplaceModule(
-      '0x16bb9287dD7B21C526757625f5B4d6D91FC94653'
+      '0x5fa60dBDEE5413c6fd850C5fe1Be569A787dA6Bb'
       
     )
   }, [provider])
