@@ -46,7 +46,8 @@ const Collection = () => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner()
+      provider.getSigner(),
+      'https://eth-goerli.g.alchemy.com/v2/cWv3u9kr58a0ll4DGuBhUb22Om-bcucs'
     )
     return sdk.getNFTModule(collectionId)
   }, [provider])
