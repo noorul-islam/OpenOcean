@@ -40,14 +40,13 @@ const Collection = () => {
   const [nfts, setNfts] = useState([])
   const [listings, setListings] = useState([])
 
-  //https://eth-rinkeby.alchemyapi.io/v2/DePo5LT_1OzxTtLcvf6iXboYgPWp5fBJ
+  //https://eth-goerli.g.alchemy.com/v2/cWv3u9kr58a0ll4DGuBhUb22Om-bcucs
 
   const nftModule = useMemo(() => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner(),
-      'https://eth-goerli.g.alchemy.com/v2/cWv3u9kr58a0ll4DGuBhUb22Om-bcucs'
+      provider.getSigner()
     )
     return sdk.getNFTModule(collectionId)
   }, [provider])
@@ -69,7 +68,7 @@ const Collection = () => {
       provider.getSigner()
     )
     return sdk.getMarketplaceModule(
-      '0x5fa60dBDEE5413c6fd850C5fe1Be569A787dA6Bb'
+      '0x16bb9287dD7B21C526757625f5B4d6D91FC94653'
       
     )
   }, [provider])
